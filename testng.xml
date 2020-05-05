@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/idea/project/api_keyou/src/test/java/Case/TestRegister.java">
+        <classes>
+<!--            <class name="Case.TestRegister_keyou">-->
+<!--                <methods>-->
+<!--                    <include name="test"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Case.TestLogin_keyou">-->
+<!--                <methods>-->
+<!--                    <include name="test"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="Case.TestRegister_api">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="Case.TestLogin_api">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="Case.TestRecharge_api">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
